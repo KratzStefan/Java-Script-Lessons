@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+header {
+  background-color: #e4cc44e0;
+  padding: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.6rem;
+}
+
+main {
+  --hochzaehlen: 0%;
+
+  background-image: linear-gradient(
+    90deg,
+    #e4cc44e0 var(--hochzaehlen),
+    white var(--hochzaehlen)
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
