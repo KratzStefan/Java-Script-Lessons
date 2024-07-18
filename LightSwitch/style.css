@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  transition: 1s ease-in-out background-color;
+  background-color: snow;
+}
+
+.body--dark {
+  background-color: darkgrey;
+}
+
+.button {
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: monospace;
+  border: 5px solid darkgrey;
+  padding: 0.5rem 1rem;
+  background-color: snow;
+  border-radius: 2px;
+  color: darkgrey;
+}
+
+.button-dark {
+  border: 5px solid snow;
+  background-color: darkgrey;
+  color: snow;
+  box-shadow: 0 0 5px yellow, 0 0 50px yellow, 0 0 20px yellow;
+}
